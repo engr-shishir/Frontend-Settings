@@ -1,0 +1,18 @@
+.engr_shishir_container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+  @include respond(tb-md) {
+    width: 90%;
+  }
+  @include respond(lp-md) {
+    width: 80%;
+  }
+}
+
+
+.engr_shishir_container_fluid{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}

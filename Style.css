@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.engr_shishir_container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+@media only screen and (min-width: 768px) {
+  .engr_shishir_container {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .engr_shishir_container {
+    width: 80%;
+  }
+}
+
+.engr_shishir_container_fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}/*# sourceMappingURL=Style.css.map */
